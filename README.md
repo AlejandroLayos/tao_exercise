@@ -1,6 +1,6 @@
 # Tao Exercise
 
-## Proyect Architechture 
+## Project Architecture 
 This project follows hexagonal architecture and DDD patterns. 
 The files are organized in this way :
  
