@@ -1,4 +1,15 @@
-# config.yaml
+# co## Launch the client
+Open a terminal in the root of the project
+
+```sh
+go run public/apiRest.go
+```
+contrl + c   -->  to end
+
+
+## Import Postman
+
+https://www.getpostman.com/collections/384b3516af0c95659385nfig.yaml
 
 logs:
   level: info

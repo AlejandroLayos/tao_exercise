@@ -52,13 +52,15 @@ func main() {
 
 	chErr := make(chan error)
 	quit := make(chan os.Signal)
-	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
+	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM,syscall.SIGKILL,syscall.SIGQUIT)
 	for {
 		select {
 		case <-quit:
+			fmt.Println("Api stopped")
 			goto end
 		case err := <-chErr:
 			fmt.Print(err)
+			goto end
 		}
 	}
 end:

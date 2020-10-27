@@ -26,6 +26,7 @@ func (q questionRestController) GetQuestionList(w http.ResponseWriter, r *http.R
 
 	key := r.FormValue("lang")
 
+
 	//getting the list
 	list, err := q.service.GetQuestionList()
 	if err != nil {

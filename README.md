@@ -37,14 +37,13 @@ components are configured
 
 
 ## Launch the client 
+Open a terminal in the root of the project 
 
 ```sh
-make apiRest-pre
+go run public/apiRest.go
 ```
+contrl + c   -->  to end 
 
-```sh
-./application
-```
 
 ## Import Postman
 
