@@ -1,0 +1,13 @@
+# config.yaml
+
+logs:
+  level: info
+  path: logs/
+  max_size: 1
+  max_backups: 1
+  max_age: 1
+server:
+  port: :8000
+data:
+    data_type: csv
+  # csv o json
